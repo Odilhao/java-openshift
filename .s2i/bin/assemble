@@ -1,5 +1,5 @@
 echo "Baixando o EAR"
-NEXUS_URL=172.17.0.1:8181
+NEXUS_URL=192.168.99.1:8181
 echo $NEXUS_URL
 wget http://$NEXUS_URL/repository/upload-jenkins/org/oc-ci/main/os-sample-java-web-war-31/0.1/os-sample-java-web-war-31-0.1-latest.war -O /wildfly/standalone/deployments/ROOT.war
 echo "Deploy finalizado"
