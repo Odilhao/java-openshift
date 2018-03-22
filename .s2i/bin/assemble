@@ -1,8 +1,5 @@
 echo "Baixando o EAR"
-sleep 10
 echo ${NEXUS_URL}
 wget http://${NEXUS_URL}/repository/upload-jenkins/org/oc-ci/main/os-sample-java-web-war-31/0.1/os-sample-java-web-war-31-0.1-latest.war -O /wildfly/standalone/deployments/ROOT.war
-sleep 10
 echo "Deploy finalizado"
-sleep 10
 echo "Validando Build"
