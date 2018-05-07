@@ -1,5 +1,5 @@
 echo "Baixando o EAR"
-ARTEFATOURL=0
+ARTEFATOURL=40
 wget $ARTEFATOURL -O /wildfly/standalone/deployments/ROOT.war
 echo "Deploy finalizado"
 echo "Validando Build"
